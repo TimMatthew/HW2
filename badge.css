@@ -1,4 +1,4 @@
-#badge, #print-badge {
+#badge{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -11,12 +11,9 @@
     border-radius: 15px;
     background-color: darkorchid;
     transition: height 0.2s ease-in-out, background-color 0.3s ease;
-    overflow: hidden;
+  
 }
 
-#print-badge{
-    display: none;
-}
 #badge:hover {
     height: 70px;
     background-color: darkorange;
@@ -64,20 +61,28 @@
 
 
 @media print {
-    #print-badge, #print-badge * {
-        visibility: visible;
-    }
-    #print-badge {
-        display: block;
+
+    #badge {
         border: 1px solid darkorchid;
         padding: 10px;
     }
-
-    #badge-title {
-        color: black;
+    
+    #badge-title{
+       visibility: hidden;
     }
-    #create-title, #create-author {
+
+    #badge-title:after {
+        content: "Created by: Tymofii Matiichyk";
+        visibility: visible;
+        position: absolute;
         color: black;
-        text-decoration: none;
+        left: 5px;
+        top: 10px;
+
+    }
+
+    #created-by {
+        display: inline;
+        color: black;
     }
 }
