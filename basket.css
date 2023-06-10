@@ -30,8 +30,11 @@
 }
 
 .index-num{
-    background-color: orange;
-    color: white;
+
+    width: 40px;
+    height: 30px;
     padding: 3px;
-    border-radius: 11px;
+    border-radius: 50%;
+    background-color: rgb(227, 106, 0);
+    color: white;
 }

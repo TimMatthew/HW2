@@ -25,6 +25,7 @@
     print-color-adjust: exact;
     width: 25%;
     border-radius: 5px;
+    font-weight: bold;
     border-color: cornflowerblue;
     box-shadow: 0px 3px darkslateblue;
     background-color:cornflowerblue;
@@ -46,18 +47,24 @@
     text-align: center;
 }
 
+.plus, .minus{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    border-radius: 50%;
+    color: white
+}
+
 .plus{
     background-color: green;
-    border-color: green;
-    color: white;
-    border-radius: 14px;
+    border: none;
+    box-shadow: 1px 3px 0px 0px rgb(0, 70, 0); 
 }
 
 .minus{
     background-color: red;
-    border-color: red;
-    color: white;
-    border-radius: 14px;
+    border: none;
+    box-shadow: 1px 3px 0px 0px rgb(107, 0, 0); 
 }
 
 #tomatoes{
@@ -87,13 +94,24 @@
 }
 
 .bought{
+    width: 85px;
+    height: 35px;
+    white-space: nowrap;
     font-family: "Fira Sans", sans-serif;
-    box-shadow: 0px 3px darkgray;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(198, 198, 198);
+    color: white;
+    box-shadow: 1px 3px 6px 1px grey;
 }
 
 .cancel{
+    width:35px;
+    height: 35px;
     background-color: rgb(194, 0, 0);
-    border-color: rgb(194, 0, 0);
     color: rgb(255, 255, 255);
-    border-radius: 5px;   
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 3px 6px 1px rgb(104, 19, 19); 
 }

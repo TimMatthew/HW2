@@ -69,16 +69,16 @@
     
     #badge-title{
        visibility: hidden;
-    }
+    }   
 
     #badge-title:after {
         content: "Created by: Tymofii Matiichyk";
+        font-family: Arial, Helvetica, sans-serif;
         visibility: visible;
         position: absolute;
         color: black;
         left: 5px;
-        top: 10px;
-
+        top: 15px;
     }
 
     #created-by {
