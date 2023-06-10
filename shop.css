@@ -12,7 +12,6 @@
 }
 
 #search_bar,#add_button{
-    float:left;
     box-sizing: border-box;
     padding: 5px;
     color: white;
