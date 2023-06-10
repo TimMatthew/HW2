@@ -1,9 +1,10 @@
 #basket{
+    background-color: white;
     border: solid black 2px;
     border-radius: 10px;
     width: 37%;
     margin-left: 3%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
 #rest-title, #taken-title, .rest, .taken{

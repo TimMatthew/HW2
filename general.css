@@ -15,6 +15,10 @@
     -webkit-print-color-adjust: exact;
 }
 
+body{
+    background-color: lightgray;
+}
+
 button {
     position: relative;
 }
