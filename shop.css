@@ -1,5 +1,3 @@
-
-
 #shop{
     border-style: solid;
     border-color: black;
@@ -47,10 +45,6 @@
 .center{
     text-align: center;
 }
-
-/* .counter, .plus, .minus{
-    box-sizing: border-box;
-} */
 
 .plus{
     background-color: green;
