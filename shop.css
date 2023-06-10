@@ -1,10 +1,9 @@
 #shop{
     background-color: white;
-    border-style: solid;
-    border-color: black;
     border-radius: 10px;
-    width: 57%;
+    width: 52%;
     margin-right: 3%;
+    margin-left: 5%;
 }
 
 .goods{
