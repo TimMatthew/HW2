@@ -30,12 +30,6 @@
     border-radius: 10px;
 }
 
-.index-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
 .index-num{
     background-color: orange;
     color: white;

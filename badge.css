@@ -63,27 +63,20 @@
     opacity: 1;
 }
 
-/* Show the print-badge in print view with only border and text visible */
+
 @media print {
-    
-    /* Show the print-badge and its content */
     #print-badge, #print-badge * {
         visibility: visible;
     }
-
-    /* Style the print-badge */
     #print-badge {
         display: block;
         border: 1px solid darkorchid;
         padding: 10px;
     }
 
-    /* Style the badge-title */
     #badge-title {
         color: black;
     }
-
-    /* Style the create-title and create-author */
     #create-title, #create-author {
         color: black;
         text-decoration: none;
